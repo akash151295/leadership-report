@@ -1,0 +1,361 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Leadership Report Dashboard</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background: #f4f4f4;
+                padding: 20px;
+            }
+            h1 {
+                text-align: center;
+                margin-bottom: 5px;
+            }
+            .last-updated {
+                text-align: center;
+                font-size: 0.9em;
+                color: #555;
+                margin-bottom: 20px;
+            }
+            .summary-block {
+                width: 90%;
+                background: #fff;
+                padding: 20px;
+                border-radius: 8px;
+                border: 1px solid #ccc;
+                margin-bottom: 20px;
+            }
+            .project-label {
+                font-weight: bold;
+                font-size: 18px;
+            }
+            table {
+                margin-left: auto;
+                margin-right: auto;
+            }
+            th, td {
+                border: 1px solid #ccc;
+                padding: 10px;
+                text-align: center;
+            }
+            th {
+                background-color: #007bff;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Leadership Report Dashboard&nbsp;&ndash;&nbsp;2025-05-31</h1>
+        <div class="last-updated">Last Updated On: 2025-05-31 23:41:41</div>
+        
+        <div class="summary-block" style="margin-bottom:20px; position: relative;">
+            <!-- Row 1: Project/Release (left) + Start/End (right) -->
+            <div style="display:flex; justify-content: space-between; align-items:center;">
+                <div class="project-label">Project/Release: SLA/release may</div>
+                <div style="font-size:0.95em; color:#555;">
+                    <span><b>Start Date:</b> 2025-05-14</span>
+                    &nbsp;|&nbsp;
+                    <span><b>End Date:</b> 2025-05-27</span>
+                </div>
+            </div>
+
+            <!-- Row 2: Status badge -->
+            <div style="margin-top:8px;">
+                <b>Status:</b>
+                <span style="
+                    background-color: #28a745;
+                    color: white;
+                    padding: 4px 8px;
+                    border-radius: 4px;
+                    font-weight: bold;
+                    display: inline-block;
+                ">
+                    On Track
+                </span>
+            </div>
+
+            <!-- Row 3: All four bullets in a single <div> -->
+            <div style="margin-top:12px; font-size:0.95em; color:#333;">
+                • 3 stories in scope + Regression.<br>
+                • 6 defect(s) still open and 0 defect(s) closed today.<br>
+                • 4 Test cases designed (fixVersion).<br>
+                • Story Testing – 2 out of 4 test cases executed.<br>
+                • Regression Testing – 0 out of 0 test cases executed (QTest).<br>
+            </div>
+        </div>
+
+        <table style="margin-bottom:40px; width:90%; border-collapse: collapse; border:1px solid #ccc;">
+            <tr style="background-color:#007bff; color:white;">
+                <th>Total Stories</th>
+                <th>Completed Stories</th>
+                <th>Test Cases Designed</th>
+                <th>Story Tests Executed</th>
+                <th>Story Test Total</th>
+                <th>Open Defects</th>
+                <th>Defects Closed Today</th>
+                <th>Regression Test Executed</th>
+                <th>Regression Test Total</th>
+            </tr>
+            <tr style="background-color:#fff;">
+                <td style="border:1px solid #ccc; padding:8px; text-align:center;">3</td>
+                <td style="border:1px solid #ccc; padding:8px; text-align:center;">1</td>
+                <td style="border:1px solid #ccc; padding:8px; text-align:center;">4</td>
+                <td style="border:1px solid #ccc; padding:8px; text-align:center;">2</td>
+                <td style="border:1px solid #ccc; padding:8px; text-align:center;">4</td>
+                <td style="border:1px solid #ccc; padding:8px; text-align:center;">6</td>
+                <td style="border:1px solid #ccc; padding:8px; text-align:center;">0</td>
+                <td style="border:1px solid #ccc; padding:8px; text-align:center;">0</td>
+                <td style="border:1px solid #ccc; padding:8px; text-align:center;">0</td>
+            </tr>
+        </table>
+        
+        <div class="summary-block" style="margin-bottom:20px; position: relative;">
+            <!-- Row 1: Project/Release (left) + Start/End (right) -->
+            <div style="display:flex; justify-content: space-between; align-items:center;">
+                <div class="project-label">Project/Release: GCP/release dec</div>
+                <div style="font-size:0.95em; color:#555;">
+                    <span><b>Start Date:</b> 2025-05-01</span>
+                    &nbsp;|&nbsp;
+                    <span><b>End Date:</b> 2025-05-31</span>
+                </div>
+            </div>
+
+            <!-- Row 2: Status badge -->
+            <div style="margin-top:8px;">
+                <b>Status:</b>
+                <span style="
+                    background-color: #FFC107;
+                    color: black;
+                    padding: 4px 8px;
+                    border-radius: 4px;
+                    font-weight: bold;
+                    display: inline-block;
+                ">
+                    At Risk
+                </span>
+            </div>
+
+            <!-- Row 3: All four bullets in a single <div> -->
+            <div style="margin-top:12px; font-size:0.95em; color:#333;">
+                • 5 stories in scope + Regression.<br>
+                • 1 defect(s) still open and 0 defect(s) closed today.<br>
+                • 1 Test case designed (fixVersion).<br>
+                • Story Testing – 1 out of 1 test case executed.<br>
+                • Regression Testing – 0 out of 0 test cases executed (QTest).<br>
+            </div>
+        </div>
+
+        <table style="margin-bottom:40px; width:90%; border-collapse: collapse; border:1px solid #ccc;">
+            <tr style="background-color:#007bff; color:white;">
+                <th>Total Stories</th>
+                <th>Completed Stories</th>
+                <th>Test Cases Designed</th>
+                <th>Story Tests Executed</th>
+                <th>Story Test Total</th>
+                <th>Open Defects</th>
+                <th>Defects Closed Today</th>
+                <th>Regression Test Executed</th>
+                <th>Regression Test Total</th>
+            </tr>
+            <tr style="background-color:#fff;">
+                <td style="border:1px solid #ccc; padding:8px; text-align:center;">5</td>
+                <td style="border:1px solid #ccc; padding:8px; text-align:center;">1</td>
+                <td style="border:1px solid #ccc; padding:8px; text-align:center;">1</td>
+                <td style="border:1px solid #ccc; padding:8px; text-align:center;">1</td>
+                <td style="border:1px solid #ccc; padding:8px; text-align:center;">1</td>
+                <td style="border:1px solid #ccc; padding:8px; text-align:center;">1</td>
+                <td style="border:1px solid #ccc; padding:8px; text-align:center;">0</td>
+                <td style="border:1px solid #ccc; padding:8px; text-align:center;">0</td>
+                <td style="border:1px solid #ccc; padding:8px; text-align:center;">0</td>
+            </tr>
+        </table>
+        
+        <div class="summary-block" style="margin-bottom:20px; position: relative;">
+            <!-- Row 1: Project/Release (left) + Start/End (right) -->
+            <div style="display:flex; justify-content: space-between; align-items:center;">
+                <div class="project-label">Project/Release: APP 25.40/release feb</div>
+                <div style="font-size:0.95em; color:#555;">
+                    <span><b>Start Date:</b> 2025-03-03</span>
+                    &nbsp;|&nbsp;
+                    <span><b>End Date:</b> 2025-05-15</span>
+                </div>
+            </div>
+
+            <!-- Row 2: Status badge -->
+            <div style="margin-top:8px;">
+                <b>Status:</b>
+                <span style="
+                    background-color: #dc3545;
+                    color: white;
+                    padding: 4px 8px;
+                    border-radius: 4px;
+                    font-weight: bold;
+                    display: inline-block;
+                ">
+                    Risk
+                </span>
+            </div>
+
+            <!-- Row 3: All four bullets in a single <div> -->
+            <div style="margin-top:12px; font-size:0.95em; color:#333;">
+                • 2 stories in scope + Regression.<br>
+                • 1 defect(s) still open and 0 defect(s) closed today.<br>
+                • 2 Test cases designed (fixVersion).<br>
+                • Story Testing – 1 out of 2 test cases executed.<br>
+                • Regression Testing – 0 out of 0 test cases executed (QTest).<br>
+            </div>
+        </div>
+
+        <table style="margin-bottom:40px; width:90%; border-collapse: collapse; border:1px solid #ccc;">
+            <tr style="background-color:#007bff; color:white;">
+                <th>Total Stories</th>
+                <th>Completed Stories</th>
+                <th>Test Cases Designed</th>
+                <th>Story Tests Executed</th>
+                <th>Story Test Total</th>
+                <th>Open Defects</th>
+                <th>Defects Closed Today</th>
+                <th>Regression Test Executed</th>
+                <th>Regression Test Total</th>
+            </tr>
+            <tr style="background-color:#fff;">
+                <td style="border:1px solid #ccc; padding:8px; text-align:center;">2</td>
+                <td style="border:1px solid #ccc; padding:8px; text-align:center;">1</td>
+                <td style="border:1px solid #ccc; padding:8px; text-align:center;">2</td>
+                <td style="border:1px solid #ccc; padding:8px; text-align:center;">1</td>
+                <td style="border:1px solid #ccc; padding:8px; text-align:center;">2</td>
+                <td style="border:1px solid #ccc; padding:8px; text-align:center;">1</td>
+                <td style="border:1px solid #ccc; padding:8px; text-align:center;">0</td>
+                <td style="border:1px solid #ccc; padding:8px; text-align:center;">0</td>
+                <td style="border:1px solid #ccc; padding:8px; text-align:center;">0</td>
+            </tr>
+        </table>
+        
+        <div class="summary-block" style="margin-bottom:20px; position: relative;">
+            <!-- Row 1: Project/Release (left) + Start/End (right) -->
+            <div style="display:flex; justify-content: space-between; align-items:center;">
+                <div class="project-label">Project/Release: APP 25.45/release june</div>
+                <div style="font-size:0.95em; color:#555;">
+                    <span><b>Start Date:</b> 2025-06-03</span>
+                    &nbsp;|&nbsp;
+                    <span><b>End Date:</b> 2025-08-07</span>
+                </div>
+            </div>
+
+            <!-- Row 2: Status badge -->
+            <div style="margin-top:8px;">
+                <b>Status:</b>
+                <span style="
+                    background-color: #28a745;
+                    color: white;
+                    padding: 4px 8px;
+                    border-radius: 4px;
+                    font-weight: bold;
+                    display: inline-block;
+                ">
+                    On Track
+                </span>
+            </div>
+
+            <!-- Row 3: All four bullets in a single <div> -->
+            <div style="margin-top:12px; font-size:0.95em; color:#333;">
+                • 2 stories in scope + Regression.<br>
+                • 0 defect(s) still open and 0 defect(s) closed today.<br>
+                • 0 Test cases designed (fixVersion).<br>
+                • Story Testing – 0 out of 0 test cases executed.<br>
+                • Regression Testing – 0 out of 0 test cases executed (QTest).<br>
+            </div>
+        </div>
+
+        <table style="margin-bottom:40px; width:90%; border-collapse: collapse; border:1px solid #ccc;">
+            <tr style="background-color:#007bff; color:white;">
+                <th>Total Stories</th>
+                <th>Completed Stories</th>
+                <th>Test Cases Designed</th>
+                <th>Story Tests Executed</th>
+                <th>Story Test Total</th>
+                <th>Open Defects</th>
+                <th>Defects Closed Today</th>
+                <th>Regression Test Executed</th>
+                <th>Regression Test Total</th>
+            </tr>
+            <tr style="background-color:#fff;">
+                <td style="border:1px solid #ccc; padding:8px; text-align:center;">2</td>
+                <td style="border:1px solid #ccc; padding:8px; text-align:center;">1</td>
+                <td style="border:1px solid #ccc; padding:8px; text-align:center;">0</td>
+                <td style="border:1px solid #ccc; padding:8px; text-align:center;">0</td>
+                <td style="border:1px solid #ccc; padding:8px; text-align:center;">0</td>
+                <td style="border:1px solid #ccc; padding:8px; text-align:center;">0</td>
+                <td style="border:1px solid #ccc; padding:8px; text-align:center;">0</td>
+                <td style="border:1px solid #ccc; padding:8px; text-align:center;">0</td>
+                <td style="border:1px solid #ccc; padding:8px; text-align:center;">0</td>
+            </tr>
+        </table>
+        
+        <div class="summary-block" style="margin-bottom:20px; position: relative;">
+            <!-- Row 1: Project/Release (left) + Start/End (right) -->
+            <div style="display:flex; justify-content: space-between; align-items:center;">
+                <div class="project-label">Project/Release: Rentch/release jan</div>
+                <div style="font-size:0.95em; color:#555;">
+                    <span><b>Start Date:</b> 2025-02-04</span>
+                    &nbsp;|&nbsp;
+                    <span><b>End Date:</b> 2025-04-17</span>
+                </div>
+            </div>
+
+            <!-- Row 2: Status badge -->
+            <div style="margin-top:8px;">
+                <b>Status:</b>
+                <span style="
+                    background-color: #dc3545;
+                    color: white;
+                    padding: 4px 8px;
+                    border-radius: 4px;
+                    font-weight: bold;
+                    display: inline-block;
+                ">
+                    Risk
+                </span>
+            </div>
+
+            <!-- Row 3: All four bullets in a single <div> -->
+            <div style="margin-top:12px; font-size:0.95em; color:#333;">
+                • 1 story in scope + Regression.<br>
+                • 1 defect(s) still open and 0 defect(s) closed today.<br>
+                • 0 Test cases designed (fixVersion).<br>
+                • Story Testing – 0 out of 0 test cases executed.<br>
+                • Regression Testing – 0 out of 0 test cases executed (QTest).<br>
+            </div>
+        </div>
+
+        <table style="margin-bottom:40px; width:90%; border-collapse: collapse; border:1px solid #ccc;">
+            <tr style="background-color:#007bff; color:white;">
+                <th>Total Stories</th>
+                <th>Completed Stories</th>
+                <th>Test Cases Designed</th>
+                <th>Story Tests Executed</th>
+                <th>Story Test Total</th>
+                <th>Open Defects</th>
+                <th>Defects Closed Today</th>
+                <th>Regression Test Executed</th>
+                <th>Regression Test Total</th>
+            </tr>
+            <tr style="background-color:#fff;">
+                <td style="border:1px solid #ccc; padding:8px; text-align:center;">1</td>
+                <td style="border:1px solid #ccc; padding:8px; text-align:center;">0</td>
+                <td style="border:1px solid #ccc; padding:8px; text-align:center;">0</td>
+                <td style="border:1px solid #ccc; padding:8px; text-align:center;">0</td>
+                <td style="border:1px solid #ccc; padding:8px; text-align:center;">0</td>
+                <td style="border:1px solid #ccc; padding:8px; text-align:center;">1</td>
+                <td style="border:1px solid #ccc; padding:8px; text-align:center;">0</td>
+                <td style="border:1px solid #ccc; padding:8px; text-align:center;">0</td>
+                <td style="border:1px solid #ccc; padding:8px; text-align:center;">0</td>
+            </tr>
+        </table>
+        
+    </body>
+    </html>
+    
